@@ -70,9 +70,9 @@ a {
 
 .main__enlaces__link{
     width: 280px;
-    background-color: #00000;
+    background-color: #000000;
     text-align: center;
-    padding: 21.5px 0px;
+    padding: 21.5px 0;
     border-radius: 15px;
     font-family: montserrat, sans-serif;
     font-size: 24px;
@@ -80,6 +80,20 @@ a {
     text-decoration: none;
     color: #F6F6F6;
     border: 3px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__enlaces__link:hover{
+    background-color: #22D4FD;
+    color: #000900;
+    transition: 0.2s;
+}
+
+.main__enlaces__link__iconos{
+    width: 40px;
 }
 
 .footer{
