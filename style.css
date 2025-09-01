@@ -8,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #000000;
+    background-color: #000900;
     color: white;
     min-height: 100vh;
     box-sizing: border-box;
@@ -57,12 +57,20 @@ a {
 
 .main__enlaces{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.main__enlaces__subtitulo{
+    font-size: 24px;
+    font-family: krona one, sans-serif;
+    font-weight: 400;
 }
 
 .main__enlaces__link{
     width: 280px;
-    background-color: #22D4FD;
+    background-color: #00000;
     text-align: center;
     padding: 21.5px 0px;
     border-radius: 15px;
@@ -70,11 +78,17 @@ a {
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
+    border: 3px solid #22D4FD;
 }
 
 .footer{
     display: flex;
     justify-content: center;
-    margin: 10px 0px;
+    align-items: center;
+    height: 60px;
+    background-color: #22D4FD;
+    color: #000000;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
 }
